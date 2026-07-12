@@ -2,13 +2,30 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VKR7DMPNJD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VKR7DMPNJD');
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>成蹊大学　熱・エネルギー研究室</title>
+<meta name="description"
+content="成蹊大学理工学部機械システム専攻 熱・エネルギー研究室です。航空工学、境界層遷移、突風応答、バッテリー冷却、CFD、SPH法、風洞実験、熱流体工学に関する研究を行っています。">
+<title>熱・エネルギー研究室 | 成蹊大学 理工学部 機械システム専攻</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/favicon.ico">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ResearchOrganization","name":"Heat and Flow Physics Laboratory, Seikei University","url":"https://heatandflow-physics-lab.jp/","parentOrganization":{"@type":"CollegeOrUniversity","name":"Seikei University"},"address":{"@type":"PostalAddress","addressLocality":"Musashino","addressRegion":"Tokyo","postalCode":"180-8633","streetAddress":"3-3-1 Kichijoji Kitamachi"}}</script>
+<meta property="og:type" content="website"><meta property="og:title" content="熱・エネルギー研究室 | 成蹊大学"><meta property="og:description" content="航空工学、境界層遷移、突風応答、バッテリー冷却、CFD、SPH法、風洞実験に関する研究を行っています。">
+<meta property="og:url" content="https://heatandflow-physics-lab.jp/"><meta property="og:image" content="https://heatandflow-physics-lab.jp/img/ogp.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
+
 <body>
 <nav id="nav">
   <div class="nav-in">
@@ -19,22 +36,22 @@
       <li><a href="#join">For Students</a></li>
       <li><a href="#industry">Collaboration</a></li>
       <li><a href="#members">People</a></li>
+      <li><a href="#news">News</a></li>
       <li><a href="#location">Contact</a></li>
     </ul>
     <button class="burger" id="burger" aria-label="メニュー"><span></span><span></span><span></span></button>
   </div>
 </nav>
 <div id="mmenu">
-  <a href="#projects">Research</a><a href="#publications">Publications</a>
-  <a href="#join">For Students</a><a href="#industry">Collaboration</a><a href="#members">People</a><a href="#location">Contact</a>
+  <a href="#projects">Research</a><a href="#publications">Publications</a><a href="#join">For Students</a><a href="#industry">Collaboration</a><a href="#members">People</a><a href="#news">News</a><a href="#location">Contact</a>
 </div>
 <section id="hero">
   <div class="h-bg"><img src="https://images.unsplash.com/photo-1710438399422-2fca27686bcd?w=2000&h=1200&fit=crop&auto=format" alt="Abstract fluid flow visualization"></div>
   <div class="h-ot"></div><div class="h-ol"></div><div class="h-grid"></div>
   <div class="h-cnt">
     <p class="h-dept">成蹊大学・理工学部・機械システム専攻</p>
-    <h1 class="h-h1">Heat and Flow<br><span class="out">Physics</span> <span class="hi">Lab</span></h1>
-    <h2 class="h-h2">熱・エネルギー研究室</h2>
+    <h2 class="h-h1">Heat and Flow<br><span class="out">Physics</span> <span class="hi">Lab</span></h2>
+    <h1 class="h-h2">熱・エネルギー研究室</h1>
     <p class="h-sub">熱流体シミュレーションと実験を通じて、航空機の空力性能から次世代エネルギーシステムまで、熱流体現象の本質を探究します。</p>
     <div class="h-btns">
       <a href="#projects" class="btn-p">研究活動<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
@@ -46,27 +63,27 @@
 <section id="projects">
   <div class="proj-hd wrap"><hr><span class="lbl">研究テーマ</span><h2 class="sh">Research</h2></div>
   <article class="project fi">
-    <div class="p-img"><img src="img/research1-transition.jpg" alt="Boundary-Layer transition"><div class="p-ov"></div><span class="p-num">01</span></div>
+    <div class="p-img"><img src="img/research1-transition.jpg" alt="境界層遷移および前縁受容性に関する数値流体シミュレーション"><div class="p-ov"></div><span class="p-num">01</span></div>
     <div class="p-txt">
       <p class="p-lbl">Project 01</p><h3 class="p-ti">Boundary-Layer Transition</h3><p class="p-sub">境界層遷移と流れの制御</p>
-      <p class="p-desc">大型航空機の空気抵抗低減を目的に前縁受容性、境界層不安定性、層流・乱流遷移現象を対象として、高精度数値シミュレーションと風洞実験の両面から研究を行っています。外乱がどのように不安定波へ変換され、最終的に乱流へ遷移するのかを解明し、流れの制御や抵抗低減、高効率な航空・輸送システムの実現を目指しています。</p>
-      <div class="p-tags"><span class="p-tag">CFD</span><span class="p-tag">Aeroelasticity</span><span class="p-tag">RANS/LES</span></div>
+      <p class="p-desc">大型航空機の空気抵抗低減やタービンブレードの高度伝熱制御を目的に前縁受容性、境界層不安定性、層流・乱流遷移現象を対象として、高精度数値シミュレーションと風洞実験の両面から研究を行っています。外乱がどのように不安定波へ変換され、最終的に乱流へ遷移するのかを解明し、流れの制御や抵抗低減、高効率な航空・輸送システムの実現を目指しています。</p>
+      <div class="p-tags"><span class="p-tag">層流乱流遷移</span><span class="p-tag">流れの安定性</span><span class="p-tag">DNS</span></div>
     </div>
   </article>
   <article class="project alt fi">
-    <div class="p-img"><img src="img/research2-gust.jpg" alt="Gust response"><div class="p-ov"></div><span class="p-num">02</span></div>
+    <div class="p-img"><img src="img/research2-gust.jpg" alt="翼の突風応答に関する風洞実験およびCFD解析"><div class="p-ov"></div><span class="p-num">02</span></div>
     <div class="p-txt">
       <p class="p-lbl">Project 02</p><h3 class="p-ti">Wing Gust Response</h3><p class="p-sub">翼の突風応答と制御</p>
       <p class="p-desc">小型無人航空機や次世代航空モビリティでは、低レイノルズ数条件において突風や渦状外乱の影響を強く受けることが知られています。本研究では、数値シミュレーションと風洞実験を組み合わせ、翼の非定常空力応答や渦構造の変化を解析しています。外乱に対する流体力学的メカニズムを解明するとともに、流れ制御技術や高い飛行安定性・安全性を実現するための設計指針の構築を目指しています。</p>
-      <div class="p-tags"><span class="p-tag">ML/ROM</span><span class="p-tag">Unsteady Aero</span><span class="p-tag">Control</span></div>
+      <div class="p-tags"><span class="p-tag">ドローン</span><span class="p-tag">荒天化飛行</span><span class="p-tag">流れの制御</span></div>
     </div>
   </article>
   <article class="project fi">
-    <div class="p-img"><img src="img/research3-battery.jpg" alt="EV battery cooling"><div class="p-ov"></div><span class="p-num">03</span></div>
+    <div class="p-img"><img src="img/research3-battery.jpg" alt="自動車用バッテリー冷却に関する熱流体シミュレーション"><div class="p-ov"></div><span class="p-num">03</span></div>
     <div class="p-txt">
       <p class="p-lbl">Project 03</p><h3 class="p-ti">Battery Cooling</h3><p class="p-sub">自動車向けバッテリーの冷却</p>
-      <p class="p-desc">電気自動車（EV）やハイブリッド車の性能、安全性、寿命を向上させるためには、バッテリー温度を適切に管理することが重要です。本研究では、従来の定常空冷に代わる新しいバッテリー冷却技術を研究しています。流れ場や温度境界層に対して能動的に渦度供給し、熱伝達が促進され、限られた送風量でも高い冷却性能を実現できる可能性があります。</p>
-      <div class="p-tags"><span class="p-tag">Two-phase Flow</span><span class="p-tag">Conjugate HT</span><span class="p-tag">EV/eVTOL</span></div>
+      <p class="p-desc">電気自動車（EV）やハイブリッド車の性能、安全性、寿命を向上させるためには、バッテリー温度を適切に管理することが重要です。本研究では、従来の定常空冷に代わる新しいバッテリー冷却技術を研究しています。流れ場や温度境界層に対して能動的に渦度供給し、熱伝達を促進することで、限られた送風量での高い冷却性能を目指します。</p>
+      <div class="p-tags"><span class="p-tag">バッテリー冷却</span><span class="p-tag">含浸冷却</span><span class="p-tag">EV/eVTOL</span></div>
     </div>
   </article>
   <div class="wrap"><div class="research-more">
@@ -109,8 +126,8 @@
       <div class="join-aside"><span class="lbl">配属希望者へ</span><h2 class="sh">For Students</h2><p>流れや熱は、航空機、自動車、エネルギー機器など数多くの工学システムを支える基盤技術です。私たちは「なぜそうなるのか」を理解し、新しい技術につなげることを目指しています。航空機や自動車などの輸送機器や熱流体、シミュレーションに興味のある学生はもちろん、「何か面白いことを研究したい」という学生も歓迎します。一緒に未知の現象を探究していきましょう。</p></div>
       <div class="pos-grid">
         <div class="pos-card fi"><div class="pos-hd"><span class="pos-ti">はじめに</span></div><p class="pos-desc">熱・エネルギー研究室では、流体力学・伝熱工学を基盤として、航空機、風力発電、電気自動車、液滴・液膜、数値シミュレーション、風洞実験に関する研究を行っています。現象を「なんとなく理解する」のではなく、実験と数値解析を用いて現象を定量的に解明することを重視しています。</p></div>
-        <div class="pos-card fi"><div class="pos-hd"><span class="pos-ti">研究室で学べること</span></div><p class="pos-desc">実験技術（風洞実験、可視化、速度計測、温度計測、圧力計測）、数値熱流体シミュレーション（格子法、粒子法、最適化）、プログラミング（Fortran、C言語、Python）、プレゼンテーションスキル、熱流体力学を学べます。</p></div>
-        <div class="pos-card fi"><div class="pos-hd"><span class="pos-ti">身につく力</span></div><p class="pos-desc">研究を通じて、問題設定能力、論理的思考力、数値解析能力、実験技術、プレゼンテーション能力、最新の情報技術を使いこなす力を身につけることができます。これらは、航空宇宙、自動車、エネルギー、建築、機械・電機メーカー、IT・データサイエンスなど幅広い分野で活かすことができます。</p></div>
+        <div class="pos-card fi"><div class="pos-hd"><span class="pos-ti">研究室で学べること</span></div><p class="pos-desc">実験技術（風洞実験、可視化、速度計測、温度計測、圧力計測）、数値熱流体シミュレーション（格子法、粒子法、最適化）、プログラミング/情報スキル（Fortran、C言語、Python、TeX、Linux、AI活用）、プレゼンテーションスキル、熱流体力学を学べます。</p></div>
+        <div class="pos-card fi"><div class="pos-hd"><span class="pos-ti">身につく力</span></div><p class="pos-desc">研究を通じて、問題設定能力と解決能力、論理的思考力、数値解析能力、実験技術、プレゼンテーション能力、最新の情報技術を使いこなす力を身につけることができます。これらは、航空宇宙、自動車、エネルギー、建築、機械・電機メーカー、IT・データサイエンスなど幅広い分野で活かすことができます。</p></div>
         <div class="pos-card fi"><div class="pos-hd"><span class="pos-ti">研究室生活</span></div><p class="pos-desc">研究室ではプログラミングや実験、シミュレーションの基礎から学べるため、専門知識や経験がなくても心配はありません。学会発表や共同研究に参加する機会もあり、自ら考え、発信する力を身につけることができます。研究を通じて他者と協力しながら成長していくことを大切にしています。</p></div>
       </div>
     </div>
@@ -121,7 +138,7 @@
 
         <figure class="lab-photo-item fi">
           <div class="lab-photo-wrap">
-            <img src="img/for-student1.JPG" alt="Conference Presentation">
+            <img src="img/for-student1.JPG" alt="国内学会での研究発表">
           </div>
           <figcaption class="lab-photo-caption">
             <p class="lab-photo-en">Conference Presentation</p>
@@ -132,7 +149,7 @@
 
         <figure class="lab-photo-item fi">
           <div class="lab-photo-wrap">
-            <img src="img/for-student2.JPG" alt="Wind Tunnel Experiment">
+            <img src="img/for-student2.JPG" alt="風洞実験の様子">
           </div>
           <figcaption class="lab-photo-caption">
             <p class="lab-photo-en">Wind Tunnel Experiment</p>
@@ -143,7 +160,7 @@
 
         <figure class="lab-photo-item fi">
           <div class="lab-photo-wrap">
-            <img src="img/for-student3.JPG" alt="Lab Meeting">
+            <img src="img/for-student3.JPG" alt="研究室ミーティングの様子">
           </div>
           <figcaption class="lab-photo-caption">
             <p class="lab-photo-en">Laboratory Meeting</p>
@@ -255,19 +272,37 @@
     <div class="news-list">
 
       <article class="news-item fi">
-        <time class="news-date" datetime="2026-07-10">2026.07</time><div class="news-content">
+        <time class="news-date" datetime="2026-07-12">2026.07.12</time><div class="news-content">
+          <h3>Seikei&MIT Global Women's Technology Program開催</h3>
+          <p>西尾が企画運営する理系女子中高生向け理系女子教育プログラム（WTP-Global）が8/1から8/5まで開催されます。</p></div>
+      </article>
+
+      <article class="news-item fi">
+        <time class="news-date" datetime="2026-07-09">2026.07.09</time><div class="news-content">
           <h3>講演情報</h3>
           <p>第１０４期日本機械学会流体工学部門講演会で１件の発表が予定されています。</p></div>
       </article>
 
       <article class="news-item fi">
-        <time class="news-date" datetime="2026-07-10">2026.07</time><div class="news-content">
+        <time class="news-date" datetime="2026-07-01">2026.07.01</time><div class="news-content">
           <h3>講演情報</h3>
-          <p>日本機械学会年次大会で３件の発表が予定されています。</p></div>
+          <p>日本機械学会２０２６年度年次大会で３件の発表が予定されています。</p></div>
       </article>
-      
+
       <article class="news-item fi">
-        <time class="news-date" datetime="2026-07-10">2026.07</time><div class="news-content">
+        <time class="news-date" datetime="2026-07-01">2026.07.01</time><div class="news-content">
+          <h3>講演情報</h3>
+          <p>アメリカで開催されるICJWSF2026で１件の発表が予定されています。</p></div>
+      </article>
+
+      <article class="news-item fi">
+        <time class="news-date" datetime="2026-07-01">2026.07.01</time><div class="news-content">
+          <h3>講演情報</h3>
+          <p>仙台で開催されるICFDで１件の発表が予定されています。</p></div>
+      </article>
+    
+      <article class="news-item fi">
+        <time class="news-date" datetime="2026-07-10">2026.07.01</time><div class="news-content">
           <h3>ウェブサイト運用開始</h3>
           <p>研究室のホームページを新たに立ち上げました。</p></div>
       </article>
@@ -301,7 +336,7 @@
         <div class="map-f">
           <iframe title="Seikei University" src="https://maps.google.com/maps?q=成蹊大学,東京都武蔵野市吉祥寺北町3-3-1&output=embed&hl=ja" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <p class="map-cap">Nearest Station: JR Chuo Line · Kichijoji (15 min walk)</p>
+        <p class="map-cap">JR中央線・総武線 吉祥寺駅より徒歩15分</p>
       </div>
     </div>
   </div>
