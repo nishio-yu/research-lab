@@ -200,3 +200,7 @@ footer{border-top:1px solid var(--br);padding:2.5rem 0;background:#ffffff}
 @media(max-width:768px){.news-item{grid-template-columns:1fr;gap:.5rem}.news-date{padding-top:0}}
 @media(max-width:768px){.h-cnt{padding:100px 1rem 4rem}}
 @media(max-width:480px){.h-h1{font-size:4.2rem}.h-h2{font-size:2.8rem}}
+.news-content details {margin-top: .8rem;}
+.news-content details ul {list-style: disc;padding-left: 1.5rem;margin-top:0.5rem;}
+.news-content summary{cursor:pointer;font-weight:600;color:var(--tx);}
+.news-content details li{color:var(--mu);line-height:1.8;margin-bottom:0.3rem;}
